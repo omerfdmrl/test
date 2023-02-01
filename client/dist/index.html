@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="index,follow"><meta name="revisit-after" content="1 days"><script defer="defer" src="/js/chunk-vendors.dc42d11c.js"></script><script defer="defer" src="/js/app.a03be711.js"></script><link href="/css/chunk-vendors.52ea5c60.css" rel="stylesheet"><link href="/css/app.ebcbba7f.css" rel="stylesheet"><!--[if IE]><link rel="icon" type="image/svg+xml" href="/img/icons/favicon.svg"><![endif]--><link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png"><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#4DBA87"><meta name="apple-mobile-web-app-capable" content="no"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="client"><link rel="apple-touch-icon" href="/img/icons/apple-touch-icon-152x152.png"><link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#4DBA87"><meta name="msapplication-TileImage" content="/img/icons/msapplication-icon-144x144.png"><meta name="msapplication-TileColor" content="#000000"></head><body><noscript><strong>We're sorry but client doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script>var basePath = ''
+        var scripts;
+        var styles;
+        if (window.location.href.match(/(.*?)\/(panel|admin)\/(.*)/gm)) {
+            scripts = [
+                'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js',
+                'https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js',
+                'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js',
+                '/js/scripts.js',
+                'https://cdn.jsdelivr.net/npm/simple-datatables@latest',
+                '/js/datatables/datatables-simple-demo.js',
+                'https://cdn.jsdelivr.net/npm/litepicker/dist/bundle.js',
+                '/js/litepicker.js'
+            ]
+            styles = [
+                '/css/styles.css',
+                'https://cdn.jsdelivr.net/npm/litepicker/dist/css/litepicker.css',
+                'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&amp;display=swap'
+            ]
+        } else {
+            scripts = [
+                '/js/site/jquery.js',
+                '/js/site/bootstrap.js',
+                '/js/site/ofi.js',
+                '/js/site/main.js',
+            ]
+            styles = [
+                '/css/site/slider.css',
+                'https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700',
+                'https://fonts.googleapis.com/css?family=Poppins:300,400,400i,700',
+                '/css/site/style.css',
+                'https://use.fontawesome.com/releases/v5.8.1/css/all.css'
+            ]
+        }
+        scripts.forEach(element => {
+            var el = document.createElement('script')
+            el.src = element
+            document.body.appendChild(el)
+        });
+        styles.forEach(element => {
+            var el = document.createElement('link')
+            el.href = element
+            el.rel = 'stylesheet'
+            document.body.appendChild(el)
+        });</script></body></html>

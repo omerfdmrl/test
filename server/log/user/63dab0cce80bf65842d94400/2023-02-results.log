@@ -1,0 +1,4 @@
+2023-02-01 21:34:52[logger.service.js] info: "Register"
+2023-02-01 21:35:00[logger.service.js] info: "Login"
+2023-02-01 21:37:35[logger.service.js] info: "Logout"
+2023-02-01 21:37:45[logger.service.js] info: "Login"
